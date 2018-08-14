@@ -5,7 +5,7 @@ services:
     privileged: true
     build:
       context: .
-      dockerfile: Dockerfile.debian9
+      dockerfile: Dockerfile.ubuntu18
     network_mode: host
     environment:
       # Comment the variables that you don't want to be used for the configuration
